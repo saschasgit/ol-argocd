@@ -1,0 +1,11 @@
+kind: Project
+apiVersion: project.openshift.io/v1
+metadata:
+  name: argocd-cluster
+  labels:
+    kubernetes.io/metadata.name: argocd-cluster
+spec:
+  finalizers:
+    - kubernetes
+status:
+  phase: Active

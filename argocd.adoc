@@ -1,0 +1,10 @@
+Docs:
+Operator: https://argocd-operator.readthedocs.io/en/latest/
+ArgoCD: https://argo-cd.readthedocs.io/en/stable/
+
+Admin-Login:
+User: admin
+Password: Siehe Secret "%name_von_argocd%-cluster"
+Passwort ändern: https://argo-cd.readthedocs.io/en/stable/faq/
+
+oc port-forward -n argocd-cluster svc/argocd-cluster-server 8443:443
