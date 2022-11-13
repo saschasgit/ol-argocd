@@ -7,4 +7,7 @@ User: admin
 Password: Siehe Secret "%name_von_argocd%-cluster"
 Passwort ändern: https://argo-cd.readthedocs.io/en/stable/faq/
 
+Ohne Route:
 oc port-forward -n argocd-cluster svc/argocd-cluster-server 8443:443
+
+Das Projekt setzt voraus, dass ein User Mitglied der Gruppe "cluster-admins" und ein User Mitglied der Gruppe "argoread" ist.
